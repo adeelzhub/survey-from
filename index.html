@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Survey Form.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <section id="header">
+       <h1 id="title">Want to join our Team?</h1>
+       <p id="description">Please fill in the application form and we'll be in touch.</p>
+    </section>
+    <form id="survey-form">
+        <div id="input-text">
+        <label id="name-label" for="name">Name<br>
+            <input type="text" id="name" placeholder="Enter your name here" required>
+        </label><br>
+        <label id="email-label" for="email">Email<br>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </label><br>
+        <label id="number-label" for="Advertisment reference">Advert reference<br>
+            <input type="number" id="number" placeholder="Enter Advertisment reference here" min="1000" max="1015" required>
+        </label><br>
+        </div>
+        <div id="input-dropdown">
+        <label>Where did you see our Advert</label><br>
+        <select id="dropdown" name="media" required>
+            <option disabled selected>Select the name</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Indeed">Indeed</option>
+            <option value="Total Job">Total Jobs</option>
+            <option value="Monstor Jobs">Monstor Jobs</option>
+        </select>
+        </div>
+        <div id="input-radio">
+            <p>What shifts are you applying for?</p>
+            <label>
+            <input type="radio" value="Day shift" name="shift" checked/>Day Shift
+            </label><br>
+            <label>
+                <input type="radio" value="Night Shift" name="shift"/>Night Shift
+            </label><br>
+            <label>
+                <input type="radio" value="Weekend" name="shift"/>Weekends Only
+            </label>
+        </div>
+        <div id="input-checkbox">
+            <p>We are recurting for our oultlets at different locations. Please select your preference. <br>(You can select multiple locations)</p>
+            <label for="locations">
+                <input type="checkbox" value="Burnage" name="locations">Burnage
+            </label><br>
+            <label for="locations">
+                <input type="checkbox" value="Trafford" name="locations">Trafford
+            </label><br>
+            <label for="locations">
+                <input type="checkbox" value="Bury" name="locations">Bury
+            </label><br>
+            <label for="locations">
+                <input type="checkbox" value="Tameside" name="locations">Tameside
+            </label><br>
+            <label for="locations">
+                <input type="checkbox" value="City Centre" name="locations">City Centre
+            </label><br>
+            <label for="locations">
+                <input type="checkbox" value="Salford" name="locations">Salford
+            </label><br>
+            <label for="locations">
+                <input type="checkbox" value="Moston" name="locations">Moston
+            </label><br>
+            <label for="locations">
+                <input type="checkbox" value="Oldham" name="locations">Oldham
+            </label><br>
+            <label for="locations">
+                <input type="checkbox" value="Gorton" name="locations">Gorton
+            </label><br>
+            <label for="locations">
+                <input type="checkbox" value="Stockport" name="locations">Stockport
+            </label>
+                      
+        </div>
+        <div id="text-area">
+            <p>Additional information to support your application.</p>
+            <textarea id="info" name="additional-info" placeholder="Enter your text here." rows="6"></textarea>
+        </div>
+        <div id="button">
+            <button type="submit" id="submit">Submit your applicaiton.</button>
+        </div>
+
+        
+
+    </form>
+</main>
+</body>
+</html>

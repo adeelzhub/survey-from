@@ -1,0 +1,36 @@
+#header{
+    text-align: center;
+}
+main{
+    display: block;
+    background-color: #00A6ED;
+    padding: 2rem;
+    margin: 20px 30%;
+    width: auto;
+    height: auto;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    
+
+}
+#survey-form{
+    font-size: 18px;
+}
+
+#name, #number, #email, #dropdown{
+    width: 100%;
+    margin: 8px auto 8px auto;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+#info{
+    display: block;
+    width: 100%;
+}
+#submit{
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+
+}
